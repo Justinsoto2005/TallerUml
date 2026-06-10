@@ -1,4 +1,9 @@
+import java.util.List;
+import java.util.ArrayList;
+
 public class Profesor {
+    private List<Curso> cursosACargo = new ArrayList<>();
+    
     public void cargarActividadSumativa(Curso curso, ActividadSumativa actividadSumativa){
 
     }
